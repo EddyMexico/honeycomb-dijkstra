@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: hsl(0, 0%, 15%);
+    text-align: center;
+}
+canvas {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+button {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: xx-large;
+}
+.emoji-button {
+    background: none;
+    border: none;
+    outline: none;
+}
+.emoji-button::selection {
+    background: none;
+}
+.tool-button {
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+.selected-tool-button {
+    background: grey;
+}
